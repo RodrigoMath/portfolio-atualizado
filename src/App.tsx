@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Home from './components/home/Home'
 
 const App = () => {
 
@@ -6,7 +7,7 @@ const App = () => {
 
   return (
     <>
-      teste
+      <Home/>
     </>
   )
 }
